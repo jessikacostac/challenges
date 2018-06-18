@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Usuário</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <button onclick="defaultTeam()"> Default</button>
+        <button onclick="small()"> Small</button>
+        <button onclick="onlyPicture()"> only-picture</button>
+    </header>
+
+    <div>
+        <div class="usuario">
+            <!--  -->
+        </div>
+
+        <div>
+            <small>Teams</small>
+            <input onclick="defaultTeam()" type="radio" name="options" id="option-team" value="team">
+        </div>
+        <div>
+            <small>Tags</small>
+            <input onclick="defaultTag()" type="radio" name="options" id="option-tag" value="tag">
+        </div>
+        <div>
+            <small>E-mail</small>
+            <input onclick="defaultEmail()" type="radio" name="options" id="option-email" value="email">
+        </div>
+    </div>
+
+    <hr>
+    <hr>
+    <div class="teste">
+        <!-- <select name="opcoes" id="opte">
+                <option value="defaul">Padrão</option>
+                <option value="small">Resumido</option>
+                <option value="only-picture">Só foto</option>
+            </select> -->
+        <img clas="pic" src="./img/perfil.png" alt="" style="display: none;">
+    </div>
+    <button class="btn-input" onclick="criarFrase()">testesss</button>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
