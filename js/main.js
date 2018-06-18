@@ -1,14 +1,14 @@
 //Objeto user-------------------------------------------------------------
 var user = {
-  name: "Fred Castro",
-  email: "frederico@qulture.rocks",
+  name: "Jessika Cardoso",
+  email: "jessika@gmail.com",
   picture_url: "perfil.png",
   tags: [
     {
-      name:"Engenharia"
+      name:"Desenvolvimento"
     },
     {
-      name:"Marketing"
+      name:"Full stack"
     },
     {
       name:"São Paulo"
@@ -16,7 +16,7 @@ var user = {
   ],
   teams: [
     {
-      name:"Squad Mobile"
+      name:"Squad Front-End"
     },
     {
       // name:"teste"
