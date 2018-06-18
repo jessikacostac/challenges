@@ -10,43 +10,75 @@
     }
 
 
+    .apagar{
+        display: none;
+    }
+
+
+
+
 //    Header**********************
    
    header {
          
-        padding: 30px;
+        padding: 30px; 
+    }
 
+    div.usuario {
+        
+        background-color: #ecf0f1;
+        width: 550px;
+        margin: 0 auto;
+        padding: 20px 0;
+        border-radius: 3px;
+
+    div.user {
+
+        
+        img {
+            width: 100px;
+            border:4px solid rgba(26,26,26,.7);
+            border-radius: 100%;
+        }
+
+        h2 {
+            color:#1abc9c;
+            font-family: sans-serif;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        p {
+            display: inline;
+            margin: 0;
+            color: rgba(26,26,26,.7);
+            font-size: 13px;
+            padding: 0 3px;
+
+            &#frase {
+                margin: 10px 0;
+                font-weight: bold;
+            }
+        }
+
+        div{
+            color: rgba(26,26,26,.7);
+        }
+
+
+    }
+}
+
+
+    div#list {
+        color: rgba(26,26,26,.7);
+    }
+
+
+    #escolha {
         div {
+            display: inline;
 
-            background-color: #ecf0f1;
-            width: 250px;
-            margin: 0 auto;
-            padding: 20px 0;
-            border-radius: 3px;
-            
-            img {
-                width: 100px;
-                border:4px solid rgba(26,26,26,.7);
-                border-radius: 100%;
-            }
-
-            h2 {
-                color:#1abc9c;
-                font-family: sans-serif;
-                font-weight: 700;
-                margin: 0;
-            }
-
-            p {
-                margin: 0;
-                color: rgba(26,26,26,.7);
-                font-size: 13px;
-
-                &#frase {
-                    margin: 10px 0;
-                    font-weight: bold;
-                }
-            }
         }
     }
 

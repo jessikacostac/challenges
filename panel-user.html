@@ -7,41 +7,52 @@
     <title>Painel do Usuário</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
     <header>
-        <button onclick="criarUser()"> Aperte!</button>
-
-
+        <button onclick="defaultTeam()"> Default</button>
+        <button id="small" onclick="small()"> Small</button>
+        <button onclick="onlyPicture()"> only-picture</button>
     </header>
 
-    <div class="usuario">
+    <div>
+        <div class="usuario">
+            <!--  -->
+            <!-- <div class="usuario">
+                <div class="title">
+
+                </div>
+                <div class="teamTag">
+
+                </div>
+                <div class="options">
+
+                </div>
+            </div> -->
 
 
+        </div>
     </div>
     <hr>
     <hr>
-    <div class="teste">
-        <div>
-            <small>Texto</small>
-            <input type="checkbox" value="" id="defaultCheck1">
-        </div>
-
-        <div>
-            <small>Texto</small>
-            <input type="checkbox" value="" id="defaultCheck1">
-        </div>
-
-        <!-- <select name="opcoes" id="opte">
-                <option value="defaul">Padrão</option>
-                <option value="small">Resumido</option>
-                <option value="only-picture">Só foto</option>
-            </select> -->
-        <!-- <img clas="pic" src="./img/perfil.png" alt=""> -->
-
+    <div id="list" class="teste">
     </div>
 
-    <script src="./js/script.js"></script>
+    <script src="./js/script2.js"></script>
+    <!-- <script src="./main.js"></script> -->
+    <!-- <div id="escolha" class="apagar">
+            <div>
+                <small>Teams</small>
+                <input type="radio" name="options" id="option-team" value="team">
+            </div>
+            <div>
+                <small>Tags</small>
+                <input type="radio" name="options" id="option-tag" value="tag">
+            </div>
+            <div>
+                <small>E-mail</small>
+                <input type="radio" name="options" id="option-email" value="email">
+            </div>
+        </div> -->
 </body>
 
 </html>

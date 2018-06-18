@@ -7,39 +7,57 @@ body {
   background-color: #e8caac;
 }
 
+.apagar {
+  display: none;
+}
+
 header {
   padding: 30px;
 }
 
-header div {
+div.usuario {
   background-color: #ecf0f1;
-  width: 250px;
+  width: 550px;
   margin: 0 auto;
   padding: 20px 0;
   border-radius: 3px;
 }
 
-header div img {
+div.usuario div.user img {
   width: 100px;
   border: 4px solid rgba(26, 26, 26, 0.7);
   border-radius: 100%;
 }
 
-header div h2 {
+div.usuario div.user h2 {
   color: #1abc9c;
   font-family: sans-serif;
   font-weight: 700;
   margin: 0;
 }
 
-header div p {
+div.usuario div.user p {
+  display: inline;
   margin: 0;
   color: rgba(26, 26, 26, 0.7);
   font-size: 13px;
+  padding: 0 3px;
 }
 
-header div p#frase {
+div.usuario div.user p#frase {
   margin: 10px 0;
   font-weight: bold;
+}
+
+div.usuario div.user div {
+  color: rgba(26, 26, 26, 0.7);
+}
+
+div#list {
+  color: rgba(26, 26, 26, 0.7);
+}
+
+#escolha div {
+  display: inline;
 }
 /*# sourceMappingURL=style.css.map */
