@@ -5,19 +5,16 @@ body {
   font-size: 16px;
   text-align: center;
   background-color: #e8caac;
+  padding: 10px;
 }
 
 .apagar {
   display: none;
 }
 
-header {
-  padding: 30px;
-}
-
 div.usuario {
   background-color: #ecf0f1;
-  width: 550px;
+  width: 350px;
   margin: 0 auto;
   padding: 20px 0;
   border-radius: 3px;
@@ -40,8 +37,7 @@ div.usuario div.user p {
   display: inline;
   margin: 0;
   color: rgba(26, 26, 26, 0.7);
-  font-size: 13px;
-  padding: 0 3px;
+  font-size: 16px;
 }
 
 div.usuario div.user p#frase {
@@ -53,11 +49,33 @@ div.usuario div.user div {
   color: rgba(26, 26, 26, 0.7);
 }
 
-div#list {
+.status {
+  padding: 5px 0;
+}
+
+.status form input {
+  margin: 3px;
+}
+
+.status p.textoStatus {
+  font-size: 18px;
+  color: rgba(26, 26, 26, 0.7);
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.status div#list {
   color: rgba(26, 26, 26, 0.7);
 }
 
-#escolha div {
-  display: inline;
+.options a {
+  color: #ffffff;
+  background-color: #1abc9c;
+  border-radius: 3px;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 550;
+  cursor: pointer;
+  margin: 3px;
 }
 /*# sourceMappingURL=style.css.map */
