@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Chat</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css" media="all">
+  </head>
+
+  <body>
+    <h1>Chat</h1>
+
+    <div class="messages">
+      <ul class="message-list"></ul>
+
+      <div class="message-input">
+        <input type="text" />
+        <button type="button">Enviar</button>
+      </div>
+    </div>
+    <script>
+
+      const btnMessage = document.querySelector(".message-input button")
+      const listMessage = document.querySelector(".message-list")
+
+      btnMessage.addEventListener("click", function(event) {
+        event.preventDefault()
+        let valorInput = document.querySelector(".message-input input").value
+        console.log(valorInput)
+        valorInput.reset()
+ 
+      })
+
+
+      
+
+    </script>
+  </body>
+</html>
