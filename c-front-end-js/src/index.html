@@ -13,28 +13,14 @@
 
     <div class="messages">
       <ul class="message-list"></ul>
-
       <div class="message-input">
-        <input type="text" />
-        <button type="button">Enviar</button>
+        <form>
+          <input type="text" />
+          <button type="submit">Enviar</button>
+        </form>
+
       </div>
     </div>
-    <script>
-
-      const btnMessage = document.querySelector(".message-input button")
-      const listMessage = document.querySelector(".message-list")
-
-      btnMessage.addEventListener("click", function(event) {
-        event.preventDefault()
-        let valorInput = document.querySelector(".message-input input").value
-        console.log(valorInput)
-        valorInput.reset()
- 
-      })
-
-
-      
-
-    </script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

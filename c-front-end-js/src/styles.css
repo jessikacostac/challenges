@@ -6,3 +6,8 @@
   min-height: 10em;
   background-color: #f3f3f3;
 }
+
+.message-list li {
+  list-style: none;
+}
+
